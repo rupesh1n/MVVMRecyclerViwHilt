@@ -3,7 +3,7 @@ package com.rupesh.mvvmrecyclerviwhilt.data.dto
 
 import com.google.gson.annotations.SerializedName
 
-data class Wand(
+data class WandDto(
     @SerializedName("core")
     val core: String,
     @SerializedName("length")

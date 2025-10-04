@@ -3,7 +3,7 @@ package com.rupesh.mvvmrecyclerviwhilt.data.dto
 
 import com.google.gson.annotations.SerializedName
 
-data class CharactersDtoItem(
+data class CharactersDto(
     @SerializedName("actor")
     val actor: String,
     @SerializedName("alive")
@@ -39,7 +39,7 @@ data class CharactersDtoItem(
     @SerializedName("species")
     val species: String,
     @SerializedName("wand")
-    val wand: Wand,
+    val wand: WandDto,
     @SerializedName("wizard")
     val wizard: Boolean,
     @SerializedName("yearOfBirth")

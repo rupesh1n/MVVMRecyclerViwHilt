@@ -1,4 +1,5 @@
 package com.rupesh.mvvmrecyclerviwhilt.presentation.navigation
 
-class Screen {
+sealed class Screen (val route: String){
+    object  CharacterScreen : Screen("character_screen")
 }
